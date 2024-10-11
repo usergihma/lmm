@@ -1,0 +1,31 @@
+@media(max-width:600px) {
+    body{
+        background-color: purple;
+    }
+    
+    /* Estilo para telas pequenas (smartphones)*/
+    header h1{
+        font-size: 12px;
+    }
+    section img{
+        width: 100%; 
+    }
+}
+    /* Estilo para tablets*/
+@media (min-width: 601px) and (max-width:900px) {
+    section img{
+        width: 50%;
+    }
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width:901px) {
+    section img {
+        width: 30%
+    }
+    body {
+        background-color: yellow;
+    }
+}
